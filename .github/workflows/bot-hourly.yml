@@ -1,8 +1,9 @@
 name: Bitcoin Nostr Bot - Horaire
 
 on:
+  workflow_dispatch:     
   schedule:
-    - cron: '0 * * * *'   # Toutes les heures pile (UTC) → 00,01,02,...23
+    - cron: '0 * * * *'
 
 jobs:
   run-bot:
