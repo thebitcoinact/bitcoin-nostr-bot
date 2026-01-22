@@ -3,7 +3,7 @@ name: Bitcoin Nostr Bot - Horaire
 on:
   workflow_dispatch:     
   schedule:
-    - cron: '0 * * * *'
+    - cron: '15 * * * *'
 
 jobs:
   run-bot:
@@ -27,3 +27,5 @@ jobs:
       env:
         NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
       run: python bot.py
+
+      # Test commit pour réveiller schedule - 22 jan 2026
