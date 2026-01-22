@@ -28,4 +28,6 @@ jobs:
         NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
       run: python bot.py
 
-      # Réveil schedule - 22 jan 2026 22:28 CET
+# Réveil schedule - 22 jan 2026 22:28 CET
+# Forced re-activation of schedule - 22 Jan 2026 22:xx CET
+# This comment forces GitHub to re-scan the workflow
