@@ -28,4 +28,4 @@ jobs:
         NOSTR_PRIVATE_KEY: ${{ secrets.NOSTR_PRIVATE_KEY }}
       run: python bot.py
 
-      # Test commit pour réveiller schedule - 22 jan 2026
+      # Réveil schedule - 22 jan 2026 22:15 CET
